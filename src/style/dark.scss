@@ -1,0 +1,92 @@
+.app.dark {
+    background-color: rgb(36, 35, 35);
+    color: rgb(199, 138, 223);
+  
+    .chartGrid {
+      stroke: rgba(228, 228, 228, 0.219);
+    }
+  
+    .table {
+      background-color: rgb(36, 35, 35);
+  
+      .tableCell {
+        color: rgb(207, 167, 229);
+      }
+    }
+    .featured{
+     .top{
+       color:  rgb(207, 167, 229);
+     }
+      
+  
+}
+    .navbar {
+      color: rgb(207, 167, 229);
+      border-color: rgb(121, 119, 119);
+  
+      .search {
+        border-color: gray;
+        color: rgb(207, 167, 229);
+      }
+    }
+  
+    .sidebar {
+      background-color: rgb(36, 35, 35);
+      border-color: rgb(82, 80, 80);
+     color:rgb(207, 167, 229);
+  
+      .top {
+        .logo {
+          color: rgb(207, 167, 229);
+        }
+      }
+      hr {
+        border-color: #333;
+      }
+  .new{
+      .top{
+          title{
+               color: rgb(207, 167, 229);
+          }
+      }
+      
+  }
+      ul {
+        li {
+          &:hover {
+            background-color: #333;
+          }
+  
+          .icon {
+            color: rgb(207, 167, 229);
+          }
+        }
+      }
+    }
+ .home{
+     .listTitle{
+         color: rgb(207, 167, 229);
+     }
+ }
+    .datatable {
+        .datatableTitle{
+            color: rgb(207, 167, 229);
+        }
+      .datagrid {
+        color: rgb(207, 167, 229);
+        border: none;
+  
+        .viewButton,
+        .editButton,
+        .deleteButton,
+        .cellWithStatus {
+          color: rgb(207, 167, 229);
+          border: none;
+        }
+      }
+    }
+  
+    input{
+        background-color: transparent;
+    }
+  }
